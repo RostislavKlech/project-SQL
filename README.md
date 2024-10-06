@@ -39,6 +39,8 @@ Data zahrnují období let 2006 až 2018. Tento rozsah byl vybrán kvůli dostup
 
 ## Analýza a výsledky
 
+Výsledky této analýzy lze nahlédnout postupnám spouštěním jednotlivých dotazu souboru **ANSWERS.sql**.
+
 ### Otázka 1: Rostou mzdy ve všech odvětvích v průběhu let, nebo v některých klesají?
 
 První dotaz používá SQL funkci `LAG` k porovnání roční průměrné mzdy s předchozím rokem pro každé odvětví. Výsledky ukázaly, že mzdy klesaly v některých letech, zejména v roce 2013 a 2010:
