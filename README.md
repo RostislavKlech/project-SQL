@@ -56,16 +56,22 @@ Výsledky analýzy ukázaly, že neexistuje rok, ve kterém by meziroční růst
 
 K zodpovězení této otázky byly použity dvě statistické metody:
 
+1. **Korelační analýza**: Pearsonův korelační koeficient mezi růstem HDP a růstem mezd byl vypočítán jako **0,92036**, což značí silný pozitivní vztah. Korelační koeficient mezi růstem HDP a růstem cen potravin byl **0,88530**, což také ukazuje na silný pozitivní vztah, ale o něco slabší než u mezd.
+
 Tento vzorec představuje Pearsonův korelační koeficient:
 
 $$
 \rho = \frac{\sum (X_i - \bar{X})(Y_i - \bar{Y})}{\sqrt{\sum (X_i - \bar{X})^2 \sum (Y_i - \bar{Y})^2}}
 $$
 
-
-1. **Korelační analýza**: Pearsonův korelační koeficient mezi růstem HDP a růstem mezd byl vypočítán jako **0,92036**, což značí silný pozitivní vztah. Korelační koeficient mezi růstem HDP a růstem cen potravin byl **0,88530**, což také ukazuje na silný pozitivní vztah, ale o něco slabší než u mezd.
-
 2. **Regresní analýza**: Byla určena směrnice regresní přímky pro vztah mezi HDP a mzdami, která vyšla jako **0,0000000076757057**. To znamená, že i přes vysokou korelaci má změna HDP na mzdy minimální přímý vliv v absolutních hodnotách. Směrnice pro vztah mezi HDP a cenami potravin byla **0**, což znamená, že mezi HDP a cenami potravin neexistuje žádný lineární vztah.
+
+Tento vzorec představuje směrnici regresní přímky:
+
+$$
+\beta_1 = \frac{\sum (X_i - \bar{X})(Y_i - \bar{Y})}{\sum (X_i - \bar{X})^2}
+$$
+
 
 
 
