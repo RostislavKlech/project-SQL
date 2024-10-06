@@ -72,6 +72,18 @@ $$
 \beta_1 = \frac{\sum (X_i - \bar{X})(Y_i - \bar{Y})}{\sum (X_i - \bar{X})^2}
 $$
 
+## Dodatečný materiál
+
+Jako dodatečný materiál je připojen SQL dotaz generující tabulku `t_rostislav_klech_sql_secondary_final`
+
+Výsledná tabulka, kterou generuje SQL dotaz, obsahuje následující sloupce:
+
+- **`country`**: Název země.
+- **`capital_city`**: Hlavní město země.
+- **`year`**: Rok, pro který jsou údaje zaznamenány.
+- **`population`**: Populace země v daném roce.
+- **`GDP`**: Hrubý domácí produkt země (USD).
+- **`gini`**: Giniho koeficient pro daný rok, který měří nerovnost příjmů v zemi.
 
 
 
