@@ -16,14 +16,22 @@ Projekt si klade za cíl odpovědět na následující otázky:
 
 ### Popis datové sady
 
-Datová sada použitá v tomto projektu pochází z databáze `t_rostislav_klech_project_sql_primary_final2`. Byly vybrány následující klíčové sloupce:
+Datová sada použitá v tomto projektu pochází z databáze `t_rostislav_klech_project_sql_primary_final2`. Z tabulky byly vybírány následující klíčové sloupce ke tvorbě SQL dotazů:
 
 - **`payroll_year`**: Rok, ke kterému se data vztahují.
 - **`average_payroll`**: Průměrná roční mzda pro jednotlivá odvětví.
-- **`GDP`**: Hrubý domácí produkt České republiky, upravený tak, aby odpovídal měřítku a srovnání s průměrnými mzdami.
+- **`GDP`**: Hrubý domácí produkt České republiky v daných letech.
 - **`name_industry`**: Název odvětví, ke kterému se průměrná mzda vztahuje.
 - **`average_value_per_year`**: Průměrná roční cena potravinových produktů.
 - **`name_product`**: Název potravinového produktu zahrnutého v datové sadě.
+
+Ostatní sloupce tabulky:
+
+**`industry_branch_code`**: Kód odvětví.
+**`category_code`**: Kód vztahující se ke konkrétnímu názvu potraviny.
+**`price_unit`**: Měřená jednotka potraviny.
+**`prace_value`**: Hodnota jedné jednotky potraviny.
+
 
 ### Časový rozsah dat
 
