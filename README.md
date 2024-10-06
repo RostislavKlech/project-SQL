@@ -40,9 +40,9 @@ První dotaz používá SQL funkci `LAG` k porovnání roční průměrné mzdy 
 
 Tato analýza ukazuje, že ačkoli mzdy v dlouhodobém horizontu vykazují rostoucí trend, existují krátkodobé poklesy v některých letech a odvětvích.
 
-### Otázka 2: Kolik litrů mléka a kilogramů chleba lze koupit za průměrnou mzdu?
+### Otázka 2: Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
 
-Tento dotaz vypočítává množství mléka a chleba, které lze zakoupit za průměrnou roční mzdu v letech 2006 a 2018, pomocí vzorce `average_payroll / average_value_per_year`. Výsledky ukázaly, že reálná kupní síla se u některých základních potravin zvýšila, což znamená, že za průměrnou mzdu je možné zakoupit větší množství potravin než dříve.
+Tento dotaz vypočítává množství mléka a chleba, které lze zakoupit za průměrnou roční mzdu v jednotlivých odvětvích v letech 2006 a 2018, pomocí vzorce `average_payroll / average_value_per_year`. Výsledky ukázaly, že reálná kupní síla se u některých základních potravin zvýšila, což znamená, že za průměrnou mzdu je možné zakoupit větší množství potravin než dříve.
 
 ### Otázka 3: Která kategorie potravin zdražuje nejpomaleji?
 
@@ -55,6 +55,13 @@ Výsledky analýzy ukázaly, že neexistuje rok, ve kterém by meziroční růst
 ### Otázka 5: Má výška HDP vliv na změny ve mzdách a cenách potravin?
 
 K zodpovězení této otázky byly použity dvě statistické metody:
+
+Tento vzorec představuje Pearsonův korelační koeficient:
+
+$$
+\rho = \frac{\sum (X_i - \bar{X})(Y_i - \bar{Y})}{\sqrt{\sum (X_i - \bar{X})^2 \sum (Y_i - \bar{Y})^2}}
+$$
+
 
 1. **Korelační analýza**: Pearsonův korelační koeficient mezi růstem HDP a růstem mezd byl vypočítán jako **0,92036**, což značí silný pozitivní vztah. Korelační koeficient mezi růstem HDP a růstem cen potravin byl **0,88530**, což také ukazuje na silný pozitivní vztah, ale o něco slabší než u mezd.
 
