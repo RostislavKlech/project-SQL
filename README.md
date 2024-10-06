@@ -27,10 +27,10 @@ Datová sada použitá v tomto projektu pochází z databáze `t_rostislav_klech
 
 Ostatní sloupce tabulky:
 
-**`industry_branch_code`**: Kód odvětví.
-**`category_code`**: Kód vztahující se ke konkrétnímu názvu potraviny.
-**`price_unit`**: Měřená jednotka potraviny.
-**`prace_value`**: Hodnota jedné jednotky potraviny.
+- **`industry_branch_code`**: Kód odvětví.
+- **`category_code`**: Kód vztahující se ke konkrétnímu názvu potraviny.
+- **`price_unit`**: Měřená jednotka potraviny.
+- **`prace_value`**: Hodnota jedné jednotky potraviny.
 
 
 ### Časový rozsah dat
