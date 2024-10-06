@@ -60,11 +60,5 @@ K zodpovězení této otázky byly použity dvě statistické metody:
 
 2. **Regresní analýza**: Byla určena směrnice regresní přímky pro vztah mezi HDP a mzdami, která vyšla jako **0,0000000076757057**. To znamená, že i přes vysokou korelaci má změna HDP na mzdy minimální přímý vliv v absolutních hodnotách. Směrnice pro vztah mezi HDP a cenami potravin byla **0**, což znamená, že mezi HDP a cenami potravin neexistuje žádný lineární vztah.
 
-## Doporučení pro další analýzu
 
-Pro budoucí analýzy by bylo vhodné testovat jiné ekonomické indikátory, jako je míra inflace, úroveň nezaměstnanosti nebo zohlednit regionální rozdíly. Také by bylo možné zahrnout sezónní vlivy, aby se zjistilo, zda sezónnost ovlivňuje ceny potravin nebo mzdy v průběhu roku.
-
-## Závěr
-
-Tento projekt poskytl ucelený přehled o vztazích mezi HDP, mzdami a cenami potravin v České republice v letech 2006 až 2018. Výsledky ukazují, že HDP má silný vliv na růst mezd, zatímco jeho vliv na ceny potravin je mnohem slabší.
 
