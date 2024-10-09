@@ -39,7 +39,7 @@ Data zahrnují období let 2006 až 2018. Tento rozsah byl vybrán kvůli dostup
 
 ## Analýza a výsledky
 
-Výsledky této analýzy lze nahlédnout postupným spouštěním jednotlivých dotazů souborů **ANSWERS_{cislo otazky}.sql**.
+Výsledky této analýzy lze nahlédnout postupným spouštěním jednotlivých dotazů souborů **ANSWER_{cislo otazky}.sql**.
 
 ### Otázka 1: Rostou mzdy ve všech odvětvích v průběhu let, nebo v některých klesají?
 
