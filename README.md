@@ -39,7 +39,7 @@ Data zahrnují období let 2006 až 2018. Tento rozsah byl vybrán kvůli dostup
 
 ## Analýza a výsledky
 
-Výsledky této analýzy lze nahlédnout postupným spouštěním jednotlivých dotazů souboru **ANSWERS.sql**.
+Výsledky této analýzy lze nahlédnout postupným spouštěním jednotlivých dotazů souborů **ANSWERS_{cislo otazky}.sql**.
 
 ### Otázka 1: Rostou mzdy ve všech odvětvích v průběhu let, nebo v některých klesají?
 
@@ -84,7 +84,7 @@ $$
 
 ## Dodatečný materiál
 
-Jako dodatečný materiál je připojen SQL dotaz generující tabulku `t_rostislav_klech_sql_secondary_final`
+Jako dodatečný materiál je připojen SQL script generující tabulku `t_rostislav_klech_sql_secondary_final`
 
 Výsledná tabulka, kterou generuje SQL dotaz, obsahuje následující sloupce:
 
