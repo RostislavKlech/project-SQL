@@ -74,7 +74,7 @@ $$
 \rho = \frac{\sum (X_i - \bar{X})(Y_i - \bar{Y})}{\sqrt{\sum (X_i - \bar{X})^2 \sum (Y_i - \bar{Y})^2}}
 $$
 
-2. **Regresní analýza**: Byla určena směrnice regresní přímky pro vztah mezi HDP a mzdami, která vyšla jako **0,0000000076757057**. To znamená, že i přes vysokou korelaci má změna HDP na mzdy minimální přímý vliv v absolutních hodnotách. Směrnice pro vztah mezi HDP a cenami potravin byla **0**, což znamená, že mezi HDP a cenami potravin neexistuje žádný lineární vztah.
+2. **Regresní analýza**: Byla určena směrnice regresní přímky pro vztah mezi HDP a mzdami, která vyšla jako **0,0000000077**. To znamená, že i přes vysokou korelaci má změna HDP na mzdy minimální přímý vliv v absolutních hodnotách. Směrnice pro vztah mezi HDP a cenami potravin byla **0**, což znamená, že mezi HDP a cenami potravin neexistuje žádný lineární vztah.
 
 Tento vzorec představuje směrnici regresní přímky:
 
